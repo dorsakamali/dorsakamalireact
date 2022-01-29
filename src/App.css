@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+#header {
+    color: aliceblue;
+    background-color: gold;
+    margin-right: 30%;
+    margin-left: 30%;
+    border-radius: 10px;
+    font-family: 'Times New Roman';
+    text-align: center;
+    border-style: groove;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#add {
+    color: lightgray;
+    margin-right: 30%;
+    margin-left: 30%;
+    border-radius: 10px;
+    font-family: 'Times New Roman';
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input {
+    color: slategray;
+    background-color: lightgrey;
+    margin-right: 30%;
+    margin-left: 30%;
+    border-radius: 10px;
+    font-family: 'Times New Roman';
+    height: 100px;
+    width: 400px;
+    font-size: 18px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.button:active {
+    box-shadow: 0 5px gray;
+    transform: translateY(4px);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button:active {
+    box-shadow: 0 5px gray;
+    transform: translateY(4px);
+}
+
+.button {
+    color: white;
+    background-color: gold;
+    border-style: double;
+    margin-right: 30%;
+    margin-left: 30%;
+    border-radius: 10px;
+    font-family: 'Times New Roman';
+    height: 30px;
+    width: 200px;
+    font-size: 15px;
+}
+
+.taskView {
+    color: darkslategrey;
+    background-color: gold;
+    margin-right:50%;
+    margin-left: 50%;
+    border-radius: 10px;
+    font-family: 'Times New Roman';
+    padding: 15px;
+    font-size: 18px;
+    float:left;
+    border-style: solid;
+    border-color: olive;
+    border-width: 5px;
+    box-sizing: border-box;
+    width: 350px;
+    height: 190px;
+    margin: 10px; 
+
+}
+
+.taskTitle {
+    color: darkgoldenrod;
+    background-color: rgb(7, 54, 54);
+    margin-right: 42%;
+    margin-left: 42%;
+    border-radius: 10px;
+    font-family: 'Times New Roman';
+    /* height: px; */
+    /* width: 250px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#status {
+    color: black;
+    background-color: darkslategrey;
+    font-family: 'Times New Roman';
+}
+
+.icon {
+    margin-right: 50%;
 }
